@@ -13,7 +13,8 @@
   ## Link
   [Live Link](https://hoffmasterdevin.github.io/Resume-html-css/) 
   ## Screenshot
-  
+  ![portfolio-screen](https://user-images.githubusercontent.com/118146567/236331533-61a56349-4b48-4e0f-a63d-cd95f8c0ad0e.png)
+
   ## License
   This application is licenced by [MIT License](https://mit-license.org/)
   ## Questions
