@@ -1,15 +1,78 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
   <body>
-    <header></header>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
-  </body>
+    <header>
+        <h1>Devin Hoffmaster's Portfolio</h1>
+        <nav>
+            <ul class="flex-parent">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>  
+        </nav>
+    </header>
+    <img src="./assets/images/background.png" id="cover-photo" alt="Cascading Bianary Banner">
+    <section id="about-me">
+        <h3>About Me</h3>
+        <div class="section-content">
+            <p>
+                My name is Devin Hoffmaster, and I am an aspiring web developer with around 6 months experience, having almost completed a university coding bootcamp. Below is some of the projects I have worked on that I feel showcase what I can do.
+            </p>
+            <p>
+                I am currently enrolled in a full stack developer bootcamp through the University of Wisconsin until May of 2023. Please reach out if you have any questions, or are looking to hire a web developer for your company.
+            </p>
+            <img id="headshot" src="./assets/images/headshot.png" alt="Picture of Devin"> 
+        </div>
+    </section>
+    <section id="projects">
+        <h3>Projects</h3>
+        <div class="section-content flex-parent">
+            <a href="https://hoffmasterdevin.github.io/weather-track-app/">
+                <div class="caption">
+                    <p>Weather Track App</p>
+                    <p>HTML/CSS/JS</p>
+                </div>
+                <img src="./assets/images/weather-track.png" alt="Weather Track App">
+            </a>
+            <a href="https://gpkarlsson.github.io/Pokemon-Cards-and-Games-Info-App/">
+                <div class="caption">
+                    <p>Cards & Cartridges</p>
+                    <p>HTML/CSS/JS</p>
+                </div>
+                <img src="./assets/images/cards-carts.png" alt="Cards and Cartridges">
+            </a>
+            <a href="https://github.com/HoffmasterDevin/readME-generator">
+                <div class="caption">
+                    <p>Goal Tracker</p>
+                    <p>Markdown/JS/Inquirer</p>
+                </div>
+                <img src="./assets/images/readme-gen.png" alt="ReadMe Generator">
+            </a>
+            <a href="./assets/images/construction.jpg">
+                <div class="caption">
+                    <p>Coming Soon</p>
+                    <p>N/A</p>
+                </div>
+                <img src="./assets/images/construction.png" alt="Under Construction">
+            </a>
+        </div>
+    </section>
+    <section id="contact-me">
+        <h3>Contact Me</h3>
+        <div class="section-content">
+            <ul class="flex-parent">
+                <li><a href="tel:6089826069"><img src="./assets/images/phone.png" alt="Phone icon"></a></li>
+                <li><a href="mailto:hoffmasterdevin@gmail.com"><img src="./assets/images/email.png" alt="Email icon"></a></li>
+                <li><a href="https://github.com/HoffmasterDevin/"><img src="./assets/images/github.png" alt="GitHub icon"></a></li>
+                <li><a href="https://www.linkedin.com/"><img src="./assets/images/linkedin.png" alt="LinkedIn Icon"></a></li>
+            </ul>
+        </div>
+    </section>
+</body>
 </html>
